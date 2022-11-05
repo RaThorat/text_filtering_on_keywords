@@ -13,6 +13,11 @@ df = pd.read_sql_query('YOUR QUERY', conn)
 df.columns
 
 df.shape
+#Alternatively you can get the data from the excel or csv file. 
+#Your data should have columns named ‘Title’, ‘Summary’ and ‘Keywords’.
+
+#df=pd.read_excel('Example.xlsx')
+
 #Your dataframe should have columns named 'Title', 'Summary' and 'Keywords'. Joining all words together from aforementioned columns to create a corpus:
 df["Corpus"] = df["Title"] +" "+ df["Summary"] +" "+ df["Keywords"]
 
