@@ -7,14 +7,11 @@ This code is used to import data from a SQL server, clean and filter it based on
 
 Replace 'YOUR SERVER' and 'YOUR DATABASE' with the appropriate values for your server and database.
 
-Replace 'YOUR QUERY' with the desired SQL query to retrieve the data from the server.
-Alternatively, you can import data from an Excel or CSV file by uncommenting and using the appropriate pandas function (e.g. df = pd.read_excel('Example.xlsx')).
+Replace 'YOUR QUERY' with the desired SQL query to retrieve the data from the server. Alternatively, you can import data from an Excel or CSV file by uncommenting and using the appropriate pandas function (e.g. df = pd.read_excel('Example.xlsx')).
 
 Replace 'YOUR KEYWORD1' and 'YOUR KEYWORD2' with the desired keywords to search for in the data.
 
-Run the code.
-
-The resulting data will be saved to an Excel file called 'filtering text on keywords.xlsx'.
+Run the code. The resulting data will be saved to an Excel file called 'filtering text on keywords.xlsx'.
 
 ## Notes
 
